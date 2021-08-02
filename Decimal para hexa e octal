@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int L;
+    
+    printf("Informe um valor em decimal a ser convertido: ");
+    scanf("%d",&L);
+    
+    printf("O valor de %d em hexadecimal é:%X\n\n",L,L);
+    printf("O valor de %d em octal é:%o\n\n",L,L);
+
+    return 0;
+}
+
+
+
